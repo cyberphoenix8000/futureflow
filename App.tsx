@@ -278,7 +278,7 @@ const App: React.FC = () => {
                 <span>{tab.label}</span>
               </button>
             ))}
-          </nav>
+          </div> {/* Corrected: This closes "flex space-x-1" */}
         </div>
       </nav>
 
