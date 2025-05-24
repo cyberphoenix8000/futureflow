@@ -278,9 +278,9 @@ const App: React.FC = () => {
                 <span>{tab.label}</span>
               </button>
             ))}
-          </div> {/* Corrected: This closes "flex space-x-1" */}
-        </div>
-      </nav>
+          </div> {/* This div closes the "flex space-x-1" container for tabs */}
+        </div> {/* This div closes the "max-w-7xl" container */}
+      </nav> {/* This nav closes the navigation section */}
 
       {/* Main Content */}
       <main className="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
